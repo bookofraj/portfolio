@@ -23,6 +23,26 @@
 						</nav>
 					</header>
 
+				
+<audio id="myAudio">
+  <source src="my music.ogg" type="audio/ogg">
+</audio>
+//<button onmouseover="playAudio()" type="button">Play Audio</button>
+<button onclick="pauseAudio()" type="button">Mute Audio</button> 
+playAudio()
+<script>
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+
+function pauseAudio() { 
+  x.pause(); 
+} 
+</script>
+
+
 				<!-- Main -->
 					<div id="main">
 						<article class="thumb">
